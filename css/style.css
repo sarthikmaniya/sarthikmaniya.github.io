@@ -9703,3 +9703,46 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+
+
+
+
+
+
+
+
+      /* For small devices */
+@media (max-width: 576px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+  .hero-section {
+    padding: 40px 15px;
+    text-align: center;
+  }
+  .portfolio-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .about-section, .contact-section {
+    padding: 15px;
+  }
+}
+
+/* For tablets */
+@media (min-width: 577px) and (max-width: 992px) {
+  .portfolio-item {
+    width: 48%;
+    margin: 1%;
+  }
+}
+
+/* For desktops */
+@media (min-width: 993px) {
+  .portfolio-item {
+    width: 30%;
+    margin: 1.5%;
+  }
+}
